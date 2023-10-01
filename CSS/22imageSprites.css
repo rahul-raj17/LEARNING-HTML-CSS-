@@ -1,0 +1,7 @@
+#sprite{
+    height: 128px;
+    background-image: url('images/3flag.png');
+    background-repeat: no-repeat;
+    /* background-position: 0px -300px; */
+    background-position: 0px -600px;
+}

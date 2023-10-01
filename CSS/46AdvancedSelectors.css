@@ -1,0 +1,130 @@
+/*
+1.Type Selector
+ex:
+  H1{
+    color: red;
+}
+ 
+2. ID Selector
+ex:
+ #red-p{
+    color:red;
+}
+
+3. Class Selector
+ex:
+ .red-p{
+    color:red;
+}
+
+4. Pseudo Class and Pseudo Element
+ex:
+ a:hover{
+    color:red;
+}
+
+P::first-line{
+    color: red;
+}  
+
+5. Attribute Selector
+Example
+a [href="https://example.com"]{
+color: red;
+}
+
+6. Universal Selector
+Example
+*{
+color: red;
+}
+
+7. Combinator Selector
+Descendant combinatory (Child at any stage
+.red-p > span{
+color: green;
+}
+
+Child combinatory (Direct Child)
+.red-p> span{
+color: green;
+}
+
+Adjacent combinatory (right after sibling)
+.red-p + h1{
+color: green;
+}
+
+General sibling combinatory (all sibling)
+.red-p ~ h1{ 
+color: green;
+}
+
+7. Add Selector
+General sibling combinatory (right after sibling)
+
+.red-p, h1{
+color: green;
+}
+
+*/
+
+/* element selector */
+/* li{
+    color: red;
+} */
+
+/* id selector */
+/* #list2{
+    color: red;
+} */
+
+/* class selector */
+/* .list5{
+    color: red;
+} */
+
+/* pseudo class */ 
+/* a:hover{
+color: red;
+} */
+
+/* pseudo element  */
+/* p::first-line{
+    color: red;
+} */
+
+/* attribute selector */
+/* a[href
+="https://www.google.com"]{
+    color: red;
+} */
+
+/* universal selector */
+/* *{
+    border: 1px solid red;
+} */
+
+/* combinator selector */
+/* div a{
+    color: red;
+} */
+
+/* for direct child  */
+/* div>a{
+    color: red;
+} */
+
+/* for just siblings  */
+/* div+a{
+    color: red;
+} */
+
+/* div ~ a{
+    color: red;
+} */
+
+/* Add selector  */
+h1, p{
+    color: red;
+}

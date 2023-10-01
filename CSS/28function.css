@@ -1,0 +1,21 @@
+
+:root{
+    --primary-color: red;
+    --btn-color: lightgreen;
+    --text-color: black;
+}
+#fun{
+    /* background-color: teal; */
+    background-color: var(--primary-color);
+    height: 100px;
+    width: calc(100% - 200px);
+}
+a{
+    padding: 10px 30px;
+    margin: 20px;
+    /* background-color: blueviolet; */
+    background-color: var(--btn-color);
+    /* color: white; */
+    color: var(--text-color);
+    text-decoration: none;
+}

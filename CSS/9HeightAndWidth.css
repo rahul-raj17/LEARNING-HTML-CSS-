@@ -1,0 +1,18 @@
+body{  /* body me error find karne ka jugad */
+
+    border: 1px solid red;
+    height: 1000px;
+
+} 
+#div1{
+    background-color: blueviolet;
+    /* height: 50%; */
+    /* width: 500px; */
+    width: 70%;
+
+    /* max-width: 500px;
+    max-height: 300px; */
+    min-width: 1000px;
+    min-height: 300px;
+
+}

@@ -1,0 +1,46 @@
+/* #bg{
+    background-color: yellow;
+} */
+
+/* body{
+    background-color: red;
+} */
+
+/* background me image lagane ho */
+
+/* #bg{ */
+    /* background-image: url('images/ai.jpg'); */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /*background-repeat: repeat;*/ /* by default */
+    /* background-repeat: no-repeat; */
+    /* background-position: right top; */
+    /* background-position: center center; */
+    /* background-position: 50px 100px; */
+    /* background-position: 5% 10%; */
+    /* background-size: 100% 100%; */
+    /* background-position: cover; */
+    /* background-position: contain; */
+    /* background-attachment: fixed; */
+/* } */
+
+/* shortcut for above #bg code */
+
+/* #bg{
+    background: url('images/ai.jpg') no-repeat fixed 5% 10%;
+} */
+
+/* #bg{
+    background-color: red;
+    background-image: url('images/transparenbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+#bg{
+    background-color: red;
+    background-image: url('images/transparenbg.jpg'), url('images/laptop.jpg');
+    background-repeat: no-repeat;
+    background-position: left top, bottom right;
+}

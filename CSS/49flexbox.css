@@ -1,0 +1,78 @@
+/* Before the Flexbox Layout module, there were four layout modes:
+
+Block, for sections in a webpage
+Inline, for text
+Table, for two-dimensional table data
+Positioned, for explicit position of an element
+
+The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
+
+The Flexbox Layout (Flexible Box) module (a W3C Candidate Recommendation as of October 2017) aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word “flex”).
+
+The main idea behind the flex layout is to give the container the ability to alter its items’ width/height (and order) to best fill the available space (mostly to accommodate to all kind of display devices and screen sizes). A flex container expands items to fill available free space or shrinks them to prevent overflow.
+
+Most importantly, the flexbox layout is direction-agnostic as opposed to the regular layouts (block which is vertically-based and inline which is horizontally-based). While those work well for pages, they lack flexibility (no pun intended) to support large or complex applications (especially when it comes to orientation changing, resizing, stretching, shrinking, etc.). */
+
+.flex-container{
+    background-color: indianred;
+    display: flex;
+    /* flex-direction: row;
+    flex-direction: row-reverse; */
+    /* flex-direction: column;
+    flex-direction: column-reverse; */
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse; */
+
+    /* flex-flow: row wrap; */
+
+    /* justify-content: center;
+     justify-content: flex-end;
+    justify-content: space-between;
+    justify-content: space-around; */
+
+    /* height: 70vh; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: stretch */
+
+    /* flex-wrap: wrap; */
+
+    /* align-content: stretch; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+
+}
+
+.flex-child{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+  
+}
+
+#one{
+    /* order: 2; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 7; */
+    align-self: flex-start;
+}
+
+#two{
+    /* order: 3; */
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+    /* flex-basis: 300px; */
+    align-self: center;
+}
+
+#three{
+    /* order: 1; */
+    /* flex-grow: 4; */
+    /* flex-shrink: 2; */
+    align-self: flex-end;
+}

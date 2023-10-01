@@ -1,0 +1,59 @@
+/* CSS Units (CSS Px vs Em vs Rem: what is the difference?) */
+
+/* we use length in width, height, margin, padding, font-size */
+
+/* there are two types of units in css
+Absolute means kisi dusre pe dependency nhi hai
+Relative means kisi dusre pe dependent hai*/
+
+/* Absolute Unit in CSS
+Cm,Mm,Inch,Px,Pt,Pc 
+(1inch=96px)
+(1 inch = 72pt)
+(1 pc = 12pt)
+
+Relative Unit in CSS
+Em , Rem, Vh, Vw, % 
+Em- em is relative to the size of its direct parent
+Rem- rem is only relative to root(html tag) size
+Vh - 1% of view port height
+Vw - 1% of view port width
+% - relative to parent
+*/
+
+/* #parent {
+    border: 1px solid red; */
+    /* width: 100mm; */
+    /* width: 5in; */
+    /* width: 500pc; */
+    /* height: 50vh;
+    width: 50vw;
+} */
+
+/* #child {
+    border: 1px solid blue;
+    width: 50%;
+} */
+
+html {
+    font-size: 14px;
+}
+
+/* #parent {
+    font-size: 30px;
+} */
+
+/* #child {
+    font-size: 2em;
+} */
+
+#parent {
+    font-size: 4rem;
+}
+
+#child {
+    font-size: 2rem;
+}
+
+/* em jo hota hai apne parent se relative hota :horizontal
+and rem html se relative hota hai */

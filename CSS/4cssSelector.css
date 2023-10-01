@@ -1,0 +1,41 @@
+/*  
+three important selector:-
+
+1.Element Selector
+2. id Selector
+3. Class Selector
+
+*/
+
+/* Element Selector */
+p{
+    color: red;
+}
+
+/* id Selector */
+
+#p3{
+    color: blue;
+}
+
+/* clas Selector */
+
+.green-text{
+    color: green;
+}
+
+/* id selector */
+#h{
+    font-size: 50px;
+}
+
+/* class selector */
+.underline-h{
+    text-decoration: underline;
+}
+
+/*  */
+
+#h{
+    color: blule;
+}

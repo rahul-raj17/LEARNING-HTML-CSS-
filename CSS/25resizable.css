@@ -1,0 +1,17 @@
+/* resize ke liye condition
+overfow visible nhi rahna chahiye ya to auto ya scroll rahna chahiya */
+
+#overflow{
+    background-color: whitesmoke;
+    border: 1px solid red;
+    width: 500px;
+    height: 300px;
+    overflow: auto; 
+    /* resize: both; */
+    /* resize: horizontal; */
+    resize: vertical;
+}  
+
+/* textarea{
+    resize: none;
+} */

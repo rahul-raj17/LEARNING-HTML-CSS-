@@ -1,0 +1,15 @@
+#div1{
+    background-color: blueviolet;
+    width: 600px;
+    height: 150px;
+}
+
+#div2{
+    background-color: chocolate;
+    width: 600px;
+    height: 150px;
+    padding: 50px;
+    border: 15px solid black;
+    /* box-sizing: content-box; means width or height assign hai jo content ko mil raha*/
+    /* box-sizing: border-box; means jo vi width and height hai usme border include kar ke dega jo adjustment hai wo content ke height width pe hoga  */
+}

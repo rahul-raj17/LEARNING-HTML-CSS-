@@ -1,0 +1,60 @@
+/* there are four types of position
+1. static (default hota hai) - normal flow 
+2. relative
+3. fixed
+4. absolute
+
+**relative apna jagah se calculation start karta hai 
+relative apna jagah nhi chhorta hai and apna jagah pe kisi ko aane nhi deta hai bhale dikha kahi aur raha hog but apna jagah occupy kar ke rakhega
+
+**absolute apne position parent ya nearest position parent se start karta hai aur kuchh nhi milta hai to apna body se lena start kar deta hai
+and vice verca
+
+following 4 kebal 3 Position ke sath hi use kar skte hai relative, fixed and absolute
+1. top 
+2. bottom
+3. left 
+4. right  */
+
+body{
+    height: 1000px;
+}
+
+#parent{
+    border: 1px solid red;
+    padding: 20px;
+    width: 50%;
+    margin: 100px;
+    position: relative;
+}
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+}
+#two{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    /* position: relative;
+    top: 50px;
+    left: 50px; */
+
+    /* position: absolute;
+    top: 0px;
+    left: 0px; */
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+}
+
+#three{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+}

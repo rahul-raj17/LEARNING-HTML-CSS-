@@ -1,0 +1,24 @@
+/* slector::pseudo-element */
+
+/* p::first-letter{
+    font-size: 35px;
+    color: red;
+} */
+
+p::first-line{
+    font-size: 35px;
+    color: red;
+}
+
+h1::before{
+    content: url(images/arrowicon\ \(2\).png);
+}
+
+h1::after{
+    content: " added after";
+}
+
+::selection{
+    color: red;
+    background: yellow;
+}

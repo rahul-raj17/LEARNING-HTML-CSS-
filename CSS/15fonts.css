@@ -1,0 +1,43 @@
+/* 
+h1{
+    font-weight: 100;
+}
+
+p{
+    font-size: 30px; 
+    font-weight: regular; by default regular hota hai
+    font-weight: bold; 
+    font-style: italic;
+
+} */
+
+
+/* h1{
+    font-family: 'Poppins', sans-serif;
+} */
+
+/* p{ */
+    /* font-variant: normal; by default normal rahta hai  */
+    /* font-variant: small-caps; */
+    /* font-variant: small-caps;
+    font-size: 30px; */
+
+    /* font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-style: italic; */
+/* } */
+
+@font-face {
+    font-family: "rahul";
+    src: url('fonts sample/AlexBrush-Regular.ttf');
+}
+
+h1 {
+    font-family: "rahul";
+}
+
+p{
+    font-family: "rahul", 'Poppins', sans-serif;
+
+    font: 600 20px "rahul";
+}

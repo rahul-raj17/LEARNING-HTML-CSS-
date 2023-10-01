@@ -1,0 +1,36 @@
+/* media querry website ko responsive karne me help karta hai  */
+/* framework like bootstrap jyada popular hai website ko responsive banane me   
+isme media querry na ke barabar ya ek do likhna padta hai*/
+/* another framework example skeleton css, pure css */
+
+#div1{
+    width: 70%;
+    float: left;
+    background-color: lawngreen;
+}
+
+#div2{
+    width: 30%;
+    float: left;
+    background-color: rosybrown;
+}
+
+h1{
+    font-size: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    #div1{
+        width: 50%;
+    }
+    #div2{
+        width: 50%;
+        color: white;
+        background-color: black;
+    }
+}
+
+img {
+    width: 100%;
+    height: auto;
+}

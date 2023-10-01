@@ -1,0 +1,45 @@
+/* block 
+block hai jo pura ke pura width leta hai 
+example:-
+div
+p
+h1
+
+properties of block
+1. new line lega
+2.full width apply karega
+3. height and width apply dono kar skte hai
+
+inline
+inline utna hi width leta hai jitna jarurat hota hai 
+example:-
+a
+img
+span
+
+properties of inline
+1. not new line start
+2. no full width
+3. height and width nhi apply karega
+
+*/
+
+/* .display{
+    border: 1px solid red;
+    width: 50%;
+    height: 100px;
+    
+} */
+
+.display{
+    border: 1px solid red;
+    width: 50%;
+    height: 100px;
+    /* display: inline-block; */
+    display: inline-block;
+}
+
+#div1{
+    /* display: none; div1 ki hide karne ke liye use hota hai  */
+    visibility: hidden;
+}

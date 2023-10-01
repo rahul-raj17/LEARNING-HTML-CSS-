@@ -1,0 +1,14 @@
+/* content and border ke bich ka space ko 
+padding kahte hai */
+
+#div1{
+    border: 1px solid red;
+    /* padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 20%;
+    padding-left: 10%; */
+
+    /* shortcut */
+
+    padding: 25px 50px 30px 70px;
+}

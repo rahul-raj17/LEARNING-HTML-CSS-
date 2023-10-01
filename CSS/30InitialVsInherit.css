@@ -1,0 +1,16 @@
+#green{
+    color: green;
+}
+
+#blue{
+    color: red;
+}
+
+#initial{
+    /* color: initial; link ka color by default blue hota hai and initial means bydefault */
+    color: initial;
+}
+
+#inherit{
+    color: inherit;
+}

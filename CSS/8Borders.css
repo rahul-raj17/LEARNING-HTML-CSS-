@@ -1,0 +1,27 @@
+/* #border{ */
+    /* border-style: solid; */
+    /* border-style: dotted; */
+    /* border-style: double; */
+    /* border-style: groove; */
+    /* border-style: outset; */
+    /* border-style: inset; */
+    /* border-style: solid dashed none dotted; */
+    /* border-style: solid dotted; */
+    /* border-width: 5px; */
+    /* border-width: 5px 10px 2px 7px;
+    border-color: red green rgb(159, 232, 15) purple; */
+
+/* } */
+
+/* shortcut for above code */
+
+#border{
+    border: 5px solid green;
+    /* border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: red; */
+
+    /* border-radius: 15px; */
+    /* border-radius: 50%; */
+    border-top-left-radius: 10px;
+}

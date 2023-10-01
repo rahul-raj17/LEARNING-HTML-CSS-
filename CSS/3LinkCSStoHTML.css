@@ -1,0 +1,9 @@
+/*  Three ways to Insert CSS:-
+    External CSS
+    Internal CSS
+    Inline CSS
+
+*/
+p {
+    color: red;
+}

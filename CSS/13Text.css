@@ -1,0 +1,48 @@
+#text{
+    width: 500px;
+    /* height: 300px; */
+    border: 1px solid black;
+
+    /* color: blueviolet; */
+
+   /* text-align: left; */ /*by default left hota hai */
+    /* text-align: right; */
+    /* text-align: center; */
+   /* text-align: justify; */ /* newspaper isi tarike se likha jata hai */
+
+   /* direction: rtl; */
+
+
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+    
+    /* line-height: 30px; */
+
+    /* text-indent: 50px; sentence 50px baad print hoga */
+
+    /* letter-spacing: 3px;  means har letter ke bich ka space */
+    /* word-spacing: 10px;  means har word ke bich ka space  */
+
+    /* white-space: pre; means html me paragraph likhne jitna space use karega code me utna hi webpage me show karega */
+
+    /* white-space: nowrap; paragraph ko ek hi line me print kardega */
+
+    /* word-wrap: break-word; container se bahar na aaye word isliye use karte hai  */
+
+    writing-mode: vertical-lr;
+}
+
+/* img {
+    border: 1px solid red;
+    vertical-align: top;
+    vertical-align: middle;
+} */
+
+/* #shadow {
+    font-size: 70px; */
+    /* text-shadow: 5px 10px 5px red; first 3px hai jo horizontal next vertical and last wala pixel blur ke liye  */
+/* } */
